@@ -1,5 +1,5 @@
-const { model } = require("mongoose");
+// const { model } = require("mongoose");
 
-model.exports= {
+module.exports= {
     Book: require("./book")
 }
