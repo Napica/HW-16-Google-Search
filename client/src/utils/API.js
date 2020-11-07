@@ -5,8 +5,7 @@ export default {
         return axios.get("/api/config")
     },
 
-    // getBooks: function () {
-    //     return 
-    //     // return axios.get("/api/books")
-    // }
+    getBooks: function () {
+        return axios.get("/api/books")
+    }
 }
