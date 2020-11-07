@@ -25,13 +25,13 @@ function Navbar() {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/Projects" className="nav-link">
-            Projects
+          <NavLink to="/search" className="nav-link">
+            Search
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/contact" className="nav-link">
-            Contact
+          <NavLink to="/saved" className="nav-link">
+            Saved
           </NavLink>
         </li>
       </ul>

@@ -1,12 +1,17 @@
 import React from "react";
 import "./Header.css";
+import Navbar from "../Navbar/Navbar"
 
 function Header() {
   return (
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
+    <div>
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <h1 className="display-4 styling"></h1>
+          <p className="lead"></p>
+        </div>
       </div>
+      <Navbar />
     </div>
   );
 }
