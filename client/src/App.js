@@ -23,6 +23,7 @@ function App() {
       <Router>
         <>
           <Header />
+          <br />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/search" component={Search} />
